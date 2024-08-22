@@ -17,16 +17,17 @@
         <div class="container header-container">
         <img src="./img/logo.webp" alt="logo" class="logo-img">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link current">Main</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="./second.html" class="nav-link">Друга стоірнка</a></li>
+            <li class="nav-item"><a href="#" class="nav-link current">Головна</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Про нас</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
         </ul>
         <ul class="header-list">
-                <button class="nav-button">Log in</button>
-                <ul class="language-text">
-                <p class="language-camption">ENG</p>
-                <img class="language-photo" src="./img/switcher.png" alt="switcher">
-                <p class="language-camption">UA</p>
+                <li class="header-item"><button class="nav-button">Увійти</button></li>
+                <li class="header-item"><ul class="language-text">
+                <li class="language-item"><p class="language-camption">ENG</p>
+                <li class="language-item"><img class="language-photo" src="./img/switcher.png" alt="switcher"></li>
+                <li class="language-item"><p class="language-camption">UA</p></li>
                 </ul>
         </ul>
         </div>
@@ -35,23 +36,27 @@
         <!-- герой -->
         <section class="hero">
             <div class="container">
-                <div class="hero-list">
-                        <p class="warrior-text">Oe perlltxe hu tsamsiyu!
+                <ul class="hero-list">
+                    <li class="hero-item">><p class="warrior-text">Oe perlltxe hu tsamsiyu!
                           <br> Ngari hu Eywa salew tirea, 
                           <br> tokx 'ì'awn slu Na'viyä hapxì.
-                          <br> Säwem nìayoeng!</p>
-                        <img src="./img/arrowleft.png" alt="arrow">
-                        <p class="warrior-text">I'm speaking with the warrior!
-                           <br> Your spirit goes with Eywa, 
-                           <br> your body stays behind to 
-                           <br>  become part of the People.
-                           <br> Fight with us!</p>
-                        <button class="hero-button">Join clan</button>
-                        <ul class="chanel-list">
-                            <img src="./img/inst.png" alt="inst">
-                            <img src="./img/twitter.png" alt="twitter">
-                            <img src="./img/youtube.png" alt="youtube"></ul>
-                </div>
+                          <br> Säwem nìayoeng!</p></li>
+                        <li class="hero-item"><img src="./img/arrowleft.png" alt="arrow"></li>
+                        <li class="hero-item"><p class="warrior-text">Хоробрий воїне, звертаюсь до тебе!
+                        <br>  Твій дух йде з Ейвою, 
+                        <br> твоє тіло залишається, 
+                        <br>  щоб стати частиною Народу.
+                        <br>  Борись разом з нами!</p></li>
+                        <li class="hero-item"><button class="hero-button">Приєднатися до клану</button></li>
+                        <li class="hero-item"><ul class="chanel-list">
+                            <li class="chanel-item"><img src="./img/inst.png" alt="inst"></li>
+                            <li class="chanel-item"><img src="./img/twitter.png" alt="twitter"></li>
+                            <li class="chanel-item"><img src="./img/youtube.png" alt="youtube"></li>
+                        </ul>
+                        </li>
+                </ul>
+                       
+            
               
             </div>
         </section>
@@ -59,10 +64,10 @@
         <!-- цитата 1 -->
         <section class="quote">
             <div class="container">
-            <h2 class="quote-text">“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE
-                                    <br>GONNA COME LIKE A RAIN THAT NEVER ENDS.”
+            <h2 class="quote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+                                    <br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” 
             </h2>
-            <h3 class="quote-camption">JAKE SULLY</h3>
+            <h3 class="quote-camption">Джейк Саллі</h3>
             <img class="quote-photo" src="./img/angel.webp" alt="angel">
             </div>
 
@@ -70,69 +75,84 @@
             <!-- трейлер -->
             <section class="treiler">
                 <div class="container">
-                    <button class="treiler-text">WATCH TRAILER</button>
+                    <button class="treiler-text">Дивитись трейлер</button>
                 </div>
                 
             </section>
             <!-- цитата 2 -->
         <section class="quote">
             <div class="container">
-         <h2 class="quote-text">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY
-                                    <br>YOU HAVE TO GIVE IT BACK.”
+         <h2 class="quote-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+                                    <br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
             </h2>
-            <h3 class="quote-camption">JAKE SULLY</h3>
+            <h3 class="quote-camption">Джейк Саллі</h3>
             <img class="quote-photo" src="./img/angel.webp" alt="angel">
             </div>
            
         </section>
-
-            <!-- секція з картками -->
-        <section class="navi-language">
-            <div class="container">
-        <h2 class="navilanguage-text">Let's learn the Na'vi language</h2>
-            <div class="navi-list">
-                            <div class="card">
-            <p class="navi-camption">Hello</p>
+        <!-- секція з кардками -->
+                <section class="navi">
+                    <div class="container">
+<h2 class="navi-text">Вчимо мову На’ві</h2>
+                    <ul class="navi-list">
+                <li class="navi-item">
+                <div class="card">
+            <p class="navi-camption">Привіт</p>
             <img class="navi-photo" src="./img/arrowleft.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Kaltxì</p>
         </div>
+                </li>
+                <li class="navi-item">
                 <div class="card">
-            <p class="navi-camption">How Are You?</p>
+            <p class="navi-camption">Як справи?</p>
             <img class="navi-photo" src="./img/angel.webp" alt="angel" class="navi-photo">
             <p class="navi-camption">Ngaru lu fpom srak?</p>
         </div>
+                </li>
+                <li class="navi-item">
                 <div class="card">
-            <p class="navi-camption">I'm Well</p>
+            <p class="navi-camption">Все добре</p>
             <img class="navi-photo" src="./img/arrowright.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Lu fpom</p>
         </div>
+                </li>
+                <li class="navi-item">
                 <div class="card">
-            <p class="navi-camption">Thank you</p>
+            <p class="navi-camption">Дякую</p>
             <img class="navi-photo" src="./img/arrowleft.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Irayo si</p>
         </div>
+                </li>
+                <li class="navi-item">
                 <div class="card">
-            <p class="navi-camption">I See You</p>
+            <p class="navi-camption">Я бачу тебе</p>
             <img class="navi-photo" src="./img/angel.webp" alt="angel" class="navi-photo">
             <p class="navi-camption">Oel ngati kameie</p>
         </div>
+                </li>
+                <li class="navi-item">
                 <div class="card">
-            <p class="navi-camption">Follow me!</p>
+            <p class="navi-camption">Слідуй за мною!</p>
             <img class="navi-photo" src="./img/arrowright.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Nong oet!</p>
         </div>
-            </div>
-            </div>
+                </li>
+
+                    </ul>
+                    </div>
+                    
+                 
+
 
 
         </section>
                 <!-- цитата 3 -->
                 <section class="quote">
                     <div class="container">
-                <h2 class="quote-text">“OUR GREAT MOTHER DOES NOT TAKE SIDES,
-                                    <br>SHE PROTECTS ONLY THE BALANCE OF LIFE.”
+                <h2 class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+                                    <br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
             </h2>
-            <h3 class="quote-camption">NEYTIRI</h3>
+            <h3 class="quote-camption">Нейтірі</h3>
             <img class="quote-photo" src="./img/angel.webp" alt="angel">
                     </div>
           
@@ -143,12 +163,14 @@
             <img src="./img/logo.webp" alt="logo">
         </div>
         <ul class="email-list">
-            <p class="email-text">Q&A E-mail</p>
-            <p class="email-text">avatartwowqa@gmail.com</p>
-            <p class="email-text">Cooperation E-mail</p>
-            <p class="email-text">avatartwowcoop@gmail.com</p>
+            <li class="email-item"><p class="email-text">Q&A E-mail</p></li>
+            <li class="email-item"><p class="email-text">avatartwowqa@gmail.com</p></li>
+            <li class="email-item"><p class="email-text">Cooperation E-mail</p></li>
+            <li class="email-item"><p class="email-text">avatartwowcoop@gmail.com</p></li>
+            
         </ul>
-        <p class="description">©2023 Avatar: The Way Of Water. All rights reserved</p>
+        <p class="description"></p>
     </footer>
 </body>
 </html>
+  
