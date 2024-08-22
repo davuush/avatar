@@ -1,0 +1,50 @@
+.container{
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* .header{
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/headerbackground.webp);
+    background-position: no-repeat;
+    background-size: cover;
+}
+.hero{
+    background-image: url(../img/mainbackground.webp);
+    background-position: no-repeat;
+    background-size: cover;
+
+}
+.language-text{
+display: flex;
+gap: 10px;
+}
+.treiler{
+    background-image: url(../img/treiler.webp);
+    background-position: no-repeat;
+    background-size: cover;
+}
+.navi-language{
+    background-image: url(../img/navibackground.webp);
+    background-position: no-repeat;
+    background-size: cover;
+}
+.navi-list{
+
+}
+.card{  
+    width: 320px;
+    height: 240px;
+    display: flex;
+}
+.navi-camption{
+
+}
+.navi-photo{
+    width: 152px;
+    height: 40px;
+}
+.footer{
+        background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/headerbackground.webp);
+        background-position: no-repeat;
+        background-size: cover;
+} */
