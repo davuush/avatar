@@ -15,13 +15,12 @@
 <body>
     <header class="header">
         <div class="container header-container">
-        <img src="./img/logo.webp" alt="logo" class="logo-img">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="./second.html" class="nav-link">Друга стоірнка</a></li>
-            <li class="nav-item"><a href="#" class="nav-link current">Головна</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Про нас</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
-        </ul>
+        <a class="logo-link" href="#"><img src="./img/logo.webp" alt="logo" class="logo-img"></a>
+        <nav class="header-nav">
+            <a href="#" class="nav-link current">Головна</a>
+            <a href="#" class="nav-link">Про нас</a>
+            <a href="#" class="nav-link">Контакти</a>
+        </nav>
         <ul class="header-list">
                 <li class="header-item"><button class="nav-button">Увійти</button></li>
                 <li class="header-item"><ul class="language-text">
@@ -30,31 +29,32 @@
                 <li class="language-item"><p class="language-camption">UA</p></li>
                 </ul>
         </ul>
+        
+
         </div>
     </header>
     <main>
         <!-- герой -->
         <section class="hero">
             <div class="container">
-                <ul class="hero-list">
-                    <li class="hero-item">><p class="warrior-text">Oe perlltxe hu tsamsiyu!
+                    <div class="warrior-block">
+                    <p class="warrior-text">Oe perlltxe hu tsamsiyu!
                           <br> Ngari hu Eywa salew tirea, 
                           <br> tokx 'ì'awn slu Na'viyä hapxì.
                           <br> Säwem nìayoeng!</p></li>
-                        <li class="hero-item"><img src="./img/arrowleft.png" alt="arrow"></li>
-                        <li class="hero-item"><p class="warrior-text">Хоробрий воїне, звертаюсь до тебе!
+                        <img src="./img/arrowleft.png" alt="arrow">
+                        <p class="warrior-text">Хоробрий воїне, звертаюсь до тебе!
                         <br>  Твій дух йде з Ейвою, 
                         <br> твоє тіло залишається, 
                         <br>  щоб стати частиною Народу.
-                        <br>  Борись разом з нами!</p></li>
-                        <li class="hero-item"><button class="hero-button">Приєднатися до клану</button></li>
-                        <li class="hero-item"><ul class="chanel-list">
+                        <br>  Борись разом з нами!</p>
+                        <button class="hero-button">Приєднатися до клану</button>
+                    </div>
+                        <ul class="chanel-list">
                             <li class="chanel-item"><img src="./img/inst.png" alt="inst"></li>
                             <li class="chanel-item"><img src="./img/twitter.png" alt="twitter"></li>
                             <li class="chanel-item"><img src="./img/youtube.png" alt="youtube"></li>
                         </ul>
-                        </li>
-                </ul>
                        
             
               
@@ -64,11 +64,13 @@
         <!-- цитата 1 -->
         <section class="quote">
             <div class="container">
-            <h2 class="quote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+                <blockquote class="quote-box">
+                    <p class="quote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
                                     <br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” 
-            </h2>
-            <h3 class="quote-camption">Джейк Саллі</h3>
-            <img class="quote-photo" src="./img/angel.webp" alt="angel">
+                    </p>
+                    <cite class="quote-camption">Джейк Саллі</cite>
+                    <img class="quote-photo" src="./img/angel.webp" alt="angel">
+                </blockquote>
             </div>
 
         </section>
@@ -82,60 +84,49 @@
             <!-- цитата 2 -->
         <section class="quote">
             <div class="container">
-         <h2 class="quote-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
-                                    <br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
-            </h2>
-            <h3 class="quote-camption">Джейк Саллі</h3>
-            <img class="quote-photo" src="./img/angel.webp" alt="angel">
+                <blockquote class="quote-box">
+                    <p class="quote-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+                                    <br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.” 
+                    </p>
+                    <cite class="quote-camption">Джейк Саллі</cite>
+                    <img class="quote-photo" src="./img/angel.webp" alt="angel">
+                </blockquote>
             </div>
-           
-        </section>
         <!-- секція з кардками -->
                 <section class="navi">
                     <div class="container">
-<h2 class="navi-text">Вчимо мову На’ві</h2>
+            <h2 class="navi-text">Вчимо мову На’ві</h2>
                     <ul class="navi-list">
                 <li class="navi-item">
-                <div class="card">
+            
             <p class="navi-camption">Привіт</p>
             <img class="navi-photo" src="./img/arrowleft.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Kaltxì</p>
-        </div>
                 </li>
                 <li class="navi-item">
-                <div class="card">
             <p class="navi-camption">Як справи?</p>
             <img class="navi-photo" src="./img/angel.webp" alt="angel" class="navi-photo">
             <p class="navi-camption">Ngaru lu fpom srak?</p>
-        </div>
                 </li>
-                <li class="navi-item">
-                <div class="card">
+                <li class="navi-item">          
             <p class="navi-camption">Все добре</p>
             <img class="navi-photo" src="./img/arrowright.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Lu fpom</p>
-        </div>
                 </li>
                 <li class="navi-item">
-                <div class="card">
             <p class="navi-camption">Дякую</p>
             <img class="navi-photo" src="./img/arrowleft.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Irayo si</p>
-        </div>
                 </li>
                 <li class="navi-item">
-                <div class="card">
             <p class="navi-camption">Я бачу тебе</p>
             <img class="navi-photo" src="./img/angel.webp" alt="angel" class="navi-photo">
             <p class="navi-camption">Oel ngati kameie</p>
-        </div>
                 </li>
                 <li class="navi-item">
-                <div class="card">
             <p class="navi-camption">Слідуй за мною!</p>
             <img class="navi-photo" src="./img/arrowright.png" alt="arrow" class="navi-photo">
             <p class="navi-camption">Nong oet!</p>
-        </div>
                 </li>
 
                     </ul>
@@ -147,20 +138,21 @@
 
         </section>
                 <!-- цитата 3 -->
-                <section class="quote">
-                    <div class="container">
-                <h2 class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
-                                    <br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
-            </h2>
-            <h3 class="quote-camption">Нейтірі</h3>
-            <img class="quote-photo" src="./img/angel.webp" alt="angel">
-                    </div>
-          
-        </section>
+        <section class="quote">
+            <div class="container">
+                <blockquote class="quote-box">
+                    <p class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+                                    <br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.” 
+                    </p>
+                    <cite class="quote-camption">Нейтірі</cite>
+                    <img class="quote-photo" src="./img/angel.webp" alt="angel">
+                </blockquote>
+            </div>
     </main>
+    <!-- футер -->
     <footer class="footer">
         <div class="container">
-            <img src="./img/logo.webp" alt="logo">
+            <a class="logo-link" href="#"><img src="./img/logo.webp" alt="logo" class="logo-img"></a>
         </div>
         <ul class="email-list">
             <li class="email-item"><p class="email-text">Q&A E-mail</p></li>
