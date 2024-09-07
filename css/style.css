@@ -1,51 +1,271 @@
+:root {
+    --main-color: #FFF;
+    --button-color: #26C6EA;
+    --button-background: #0B0E66;
+    --firstquote-text: #0A3853;
+    --naviquote-text: #141414;
+    --camption-text: #000;
+}
 .container{
-    width: 1200px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 1096px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* .header{
+.header{
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/headerbackground.webp);
     background-position: no-repeat;
     background-size: cover;
+    border-bottom: 3px solid #FFF;
 }
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-link{
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+.header-nav{
+    display: flex;
+    gap: 38px;
+}
+.current{
+    color: #94CFFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1,2;
+}
+.nav-link{
+    color: var(--main-color);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1,2;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.nav-button{
+    color: var(--button-color);
+    background-color: var(--button-background);
+    width: 141px;
+    height: 41.694px;
+    text-align: center;
+    font-family: 'HeadlandOne';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,25;
+    outline: 2px solid #26C6EA;
+    border-radius: 35px 0 35px 0;
+}
+.language-text {
+    display: flex;
+    gap: 10px;
+}
+.language-camption{
+    color: var(--main-color);
+    text-align: center;
+    font-family: 'Hammersmith One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,25;
+}
+/* герой */
+
 .hero{
     background-image: url(../img/mainbackground.webp);
     background-position: no-repeat;
     background-size: cover;
 
 }
-.language-text{
-display: flex;
-gap: 10px;
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.warrior-block{
+    padding-top: 180px;
+    padding-bottom: 179px;
+    width: 376px;
+}
+.warrior-text{
+    color: var(--main-color);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,2;
+}
+.hero-arrow{
+    padding-left: 54px  ;
+}
+.hero-button{
+    color: var(--button-color);
+    background-color: var(--button-background);
+    width: 260px;
+    border-radius: 45px 0;
+    text-align: center;
+    font-family: 'HeadlandOne'; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1,25;
+    outline: 2px solid #26C7EA;
+    margin-top: 42px;
+    padding: 10px 31px;
+}
+.chanel-list{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 25px;
+}
+/* цитата 1 */
+.quote{
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+.quote-text{
+    color: var(--firstquote-text);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1,22;
+    padding-top: 75px;
+}
+.quote-camption{
+    color: #000;
+    display: block;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1,21;
+    padding-top: 16px;
+}
+.quote-photo{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* трейлер */
 .treiler{
     background-image: url(../img/treiler.webp);
     background-position: no-repeat;
     background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 331px;
+    padding-left: 590px;
+    padding-right: 590px;
 }
-.navi-language{
+.treiler-text{
+    color: var(--button-color);
+    background-color: var(--button-background);
+    border-radius: 45px 0;
+    text-align: justify;
+    font-family: 'HeadlandOne';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,25;
+    outline: 2px solid #26C7EA;
+    padding: 25px 20px;
+    
+}
+
+.navi{
     background-image: url(../img/navibackground.webp);
     background-position: no-repeat;
     background-size: cover;
 }
-.navi-list{
-
+.navi-text{
+    color: #141414;
+    text-align: center;
+    font-family: 'HeadlandOne';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1,25;
+    padding-top: 58px;
+    padding-bottom: 45px;
 }
-.card{  
+.navi-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 57px;
+}
+.navi-item{
+    background: rgba(255, 255, 255, 0.70);
     width: 320px;
     height: 240px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 .navi-camption{
-
+    color: #141414;
+    text-align: center;
+    font-family: 'HeadlandOne';
+    font-size: 24px;
+    font-style: 1;
+    font-weight: 400;
+    line-height: 24px;
 }
 .navi-photo{
     width: 152px;
-    height: 40px;
 }
+/* футер */
 .footer{
-        background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/headerbackground.webp);
-        background-position: no-repeat;
-        background-size: cover;
-} */
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/headerbackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer-container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.email-list{
+    display: flex;
+    flex-direction: column;
+}
+.email-item{
+    display: flex;
+    gap: 20px;
+}
+.email-item:first-child{
+    margin-bottom: 16px;
+}
+.email-item:last-child{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.email-text{
+    color: var(--main-color);
+    text-align: justify;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,2;
+}
+.description{
+    color: var(--main-color);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,2;
+}
